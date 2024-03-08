@@ -2,7 +2,7 @@
     "name": "Player_Controller",
     "maps": [
         {
-            "name": "Gameplay",
+            "name": "GameplayPC",
             "id": "b05350cd-b976-4b21-9659-89f920718207",
             "actions": [
                 {
@@ -30,7 +30,7 @@
                 {
                     "name": "up",
                     "id": "7471c989-f9a2-4d7a-9d09-a1d8687d900c",
-                    "path": "",
+                    "path": "<Keyboard>/w",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -41,7 +41,7 @@
                 {
                     "name": "down",
                     "id": "4f3b96cc-9ae9-4ec3-b5c7-608cf7e67041",
-                    "path": "",
+                    "path": "<Keyboard>/s",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -52,7 +52,7 @@
                 {
                     "name": "left",
                     "id": "3e48f92b-fe1d-49f3-93d2-7b28cbd85cd8",
-                    "path": "",
+                    "path": "<Keyboard>/a",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -63,6 +63,78 @@
                 {
                     "name": "right",
                     "id": "4e9272a7-0b02-49e2-855a-de9ed904d89b",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        },
+        {
+            "name": "GameplayMobile",
+            "id": "cb47e2fa-dfc5-4fee-8084-d187e564eaff",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "e99e3482-7617-48ad-ae37-12a32c99c867",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "2D Vector",
+                    "id": "bda72bba-433d-4d5d-9a83-9278dc3cb455",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "50d01395-362c-494f-b5ae-3d5899b71209",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "c9150f9b-8c2f-4312-bf4a-2658a1690ea7",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "06c98afc-cf3a-49e3-ac42-8a4de93c5907",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "98018145-ca3e-415c-b31c-9e07b2166638",
                     "path": "",
                     "interactions": "",
                     "processors": "",

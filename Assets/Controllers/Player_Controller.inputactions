@@ -2,7 +2,7 @@
     "name": "Player_Controller",
     "maps": [
         {
-            "name": "GameplayPC",
+            "name": "GameplayKeyboard",
             "id": "b05350cd-b976-4b21-9659-89f920718207",
             "actions": [
                 {
@@ -13,6 +13,24 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+                },
+                {
+                    "name": "Punch",
+                    "type": "Button",
+                    "id": "f9b786be-01e7-4768-92bd-85ca8bc96b79",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Grab",
+                    "type": "Button",
+                    "id": "34453bbc-b543-4d17-b45e-e92f2357983b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -70,11 +88,33 @@
                     "action": "Move",
                     "isComposite": false,
                     "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "fa6daf3a-74f1-43d8-a9c3-a2167e2cee9b",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Punch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8996f428-2cfd-4152-a3b3-7225de73b074",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Grab",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         },
         {
-            "name": "GameplayMobile",
+            "name": "GameplayGamepad",
             "id": "cb47e2fa-dfc5-4fee-8084-d187e564eaff",
             "actions": [
                 {
@@ -85,63 +125,59 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+                },
+                {
+                    "name": "Punch",
+                    "type": "Button",
+                    "id": "272d3538-db5e-4fe3-b520-c6348ef215cc",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Grab",
+                    "type": "Button",
+                    "id": "0953134c-224e-4c30-88ae-28cce014aaf7",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
                 {
-                    "name": "2D Vector",
-                    "id": "bda72bba-433d-4d5d-9a83-9278dc3cb455",
-                    "path": "2DVector",
+                    "name": "",
+                    "id": "94a367f1-bb8a-49d9-acba-b0b8691b020f",
+                    "path": "<Gamepad>/buttonSouth",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Move",
-                    "isComposite": true,
+                    "action": "Punch",
+                    "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
-                    "name": "up",
-                    "id": "50d01395-362c-494f-b5ae-3d5899b71209",
-                    "path": "",
+                    "name": "",
+                    "id": "76f82d57-7a32-4a6f-b6de-c01b76b92e69",
+                    "path": "<Gamepad>/leftStick",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "Move",
                     "isComposite": false,
-                    "isPartOfComposite": true
+                    "isPartOfComposite": false
                 },
                 {
-                    "name": "down",
-                    "id": "c9150f9b-8c2f-4312-bf4a-2658a1690ea7",
-                    "path": "",
+                    "name": "",
+                    "id": "a7c76475-f6e6-44c1-ae1c-154ea9734465",
+                    "path": "<Gamepad>/buttonWest",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Move",
+                    "action": "Grab",
                     "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "left",
-                    "id": "06c98afc-cf3a-49e3-ac42-8a4de93c5907",
-                    "path": "",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Move",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "right",
-                    "id": "98018145-ca3e-415c-b31c-9e07b2166638",
-                    "path": "",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Move",
-                    "isComposite": false,
-                    "isPartOfComposite": true
+                    "isPartOfComposite": false
                 }
             ]
         }

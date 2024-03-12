@@ -1,0 +1,5 @@
+D:/Unity Projects/Test-67Bits/.utmp/RelWithDebInfo/5m4f6n5l/arm64-v8a/CMakeFiles/edit_cache.dir
+D:/Unity Projects/Test-67Bits/.utmp/RelWithDebInfo/5m4f6n5l/arm64-v8a/CMakeFiles/rebuild_cache.dir
+D:/Unity Projects/Test-67Bits/.utmp/RelWithDebInfo/5m4f6n5l/arm64-v8a/FramePacing/CMakeFiles/swappywrapper.dir
+D:/Unity Projects/Test-67Bits/.utmp/RelWithDebInfo/5m4f6n5l/arm64-v8a/FramePacing/CMakeFiles/edit_cache.dir
+D:/Unity Projects/Test-67Bits/.utmp/RelWithDebInfo/5m4f6n5l/arm64-v8a/FramePacing/CMakeFiles/rebuild_cache.dir

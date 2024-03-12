@@ -1,4 +1,5 @@
+using UnityEngine;
 public interface IKnockable
 {
-    public void KnockDown();
+    public void KnockDown(Vector2 direction, float punchStrenght);
 }
